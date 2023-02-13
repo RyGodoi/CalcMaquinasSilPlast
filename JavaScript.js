@@ -10,10 +10,10 @@ window.onload = function (){
         var HGRlarguraAtual;
         var HGRespessuraAtual;
     
-        for(var i = 0; i <= 100; i=i+0.5){
+        for(var i = 0; i <= 100; i++){
             HGRpesoDesejado.innerHTML+='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 100; i++){
+        for(var i = 0; i <= 100; i=i+0.5){
             HGRlargura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
         for(var i = 0; i <= 20; i++){
@@ -53,7 +53,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i++){
             MAQ2pesoDesejado.innerHTML+='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 100; i++){
+        for(var i = 0; i <= 100; i=i+0.5){
             MAQ2largura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
         for(var i = 0; i <= 20; i++){
@@ -93,7 +93,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i++){
             MAQ1pesoDesejado.innerHTML+='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 100; i++){
+        for(var i = 0; i <= 100; i=i+0.5){
             MAQ1largura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
         for(var i = 0; i <= 20; i++){
