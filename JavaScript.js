@@ -10,7 +10,7 @@ window.onload = function (){
         var HGRlarguraAtual;
         var HGRespessuraAtual;
     
-        for(var i = 0; i <= 100; i++){
+        for(var i = 0; i <= 100; i=i+0.5){
             HGRpesoDesejado.innerHTML+='<option value="'+i+'">'+i+'</option>';
         }
         for(var i = 0; i <= 100; i++){
