@@ -16,7 +16,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i=i+0.5){
             HGRlargura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 20; i=i+0.2){
+        for(var i = 0; i <= 20; i=i+0.5){
             HGRespessura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
     
@@ -56,7 +56,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i=i+0.5){
             MAQ2largura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 20; i=i+0.01){
+        for(var i = 0; i <= 20; i=i+0.5){
             MAQ2espessura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
     
@@ -96,7 +96,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i=i+0.5){
             MAQ1largura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 20; i=i+0.2){
+        for(var i = 0; i <= 20; i=i+0.5){
             MAQ1espessura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
     
