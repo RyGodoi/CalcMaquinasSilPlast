@@ -56,7 +56,7 @@ window.onload = function (){
         for(var i = 0; i <= 100; i=i+0.5){
             MAQ2largura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
-        for(var i = 0; i <= 20; i=i+0.25){
+        for(var i = 0; i <= 20; i=i+0.01){
             MAQ2espessura.innerHTML +='<option value="'+i+'">'+i+'</option>';
         }
     
